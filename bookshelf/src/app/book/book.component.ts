@@ -5,13 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './book.component.html',
   styleUrls: ['./book.component.css']
 })
-export class BookComponent implements OnInit {
-  addBook($event){
-    console.log("Button was clicked")
-  }
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class BookComponent {
+  
+  
 }
