@@ -12,6 +12,7 @@ export const CARDS: Card[]= [
     title: "Omega Rx",
     genre: "non-ficiton",
     read: true,
-    status: true
+    status: true,
+    img:"assets/omegarx.jpg"
   }
 ];
