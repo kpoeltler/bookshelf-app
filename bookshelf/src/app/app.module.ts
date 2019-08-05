@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BookComponent } from './book/book.component';
-
+import { BookService } from './book.service'
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +15,9 @@ import { BookComponent } from './book/book.component';
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [
+    BookService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
