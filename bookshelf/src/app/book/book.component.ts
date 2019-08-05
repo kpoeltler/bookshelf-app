@@ -9,8 +9,7 @@ import { Component} from '@angular/core';
 })
 export class BookComponent {
   books; 
-    constructor(){
-      let service = new BookService();
+    constructor(service: BookService){
       this.books = service.getBooks();
     }
 }
