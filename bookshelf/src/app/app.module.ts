@@ -4,11 +4,13 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BookComponent } from './book/book.component';
-import { BookService } from './book.service'
+import { BookService } from './book.service';
+import { BookCardsComponent } from './book-cards/book-cards.component'
 @NgModule({
   declarations: [
     AppComponent,
-    BookComponent
+    BookComponent,
+    BookCardsComponent
   ],
   imports: [
     BrowserModule,
