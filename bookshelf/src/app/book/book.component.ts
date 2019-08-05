@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./book.component.css']
 })
 export class BookComponent implements OnInit {
-
+  addBook(){
+    console.log("Button was clicked")
+  }
   constructor() { }
 
   ngOnInit() {
