@@ -5,7 +5,8 @@ export const CARDS: Card[]= [
     title: "Three Pound Engima",
     genre: "non-ficiton",
     read: true,
-    status: true
+    status: true,
+    img:"assets/threepoundengima.jpg"
   },
   {
     title: "Omega Rx",
